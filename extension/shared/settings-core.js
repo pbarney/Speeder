@@ -12,7 +12,8 @@
   ];
   var BUTTON_IDS = new Set([
     "rewind", "slower", "faster", "advance", "display", "reset", "fast", "nudge",
-    "pause", "muted", "louder", "softer", "mark", "jump", "settings"
+    "pause", "muted", "louder", "softer", "mark", "jump", "settings",
+    "previousFrame", "nextFrame"
   ]);
   var KNOWN_ACTIONS = new Set(Array.from(BUTTON_IDS).concat([
     "move", "blink", "drag", "toggleSubtitleNudge"

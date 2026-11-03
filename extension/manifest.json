@@ -69,6 +69,7 @@
         "shared/settings-core.js",
         "shared/site-rules.js",
         "shared/ui-icons.js",
+        "shared/frame-stepper.js",
         "content/inject.js"
       ]
     }

@@ -12,6 +12,8 @@ document.addEventListener("DOMContentLoaded", function () {
     slower:   { label: "", className: "" },
     faster:   { label: "", className: "" },
     advance:  { label: "", className: "rw" },
+    previousFrame: { label: "", className: "" },
+    nextFrame: { label: "", className: "" },
     display:  { label: "", className: "hideButton" },
     reset:    { label: "\u21BB", className: "" },
     fast:     { label: "", className: "" },
